@@ -1,0 +1,13 @@
+json_repair
+langchain
+langchain_community
+langchain_core
+langchain_experimental
+pydantic
+pyzotero
+unstructured[all-docs] 
+chromadb
+pytesseract
+pdfminer
+numpy==1.26.3
+neo4j
