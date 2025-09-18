@@ -39,11 +39,12 @@ from langchain_community.chat_models import ChatOllama
 from langchain_community.embeddings import OllamaEmbeddings
 #from langchain_ollama import ChatOllama, OllamaEmbeddings
 # Initialize graph and LLM
-os.environ["NEO4J_URI"] = "bolt://localhost:7687"
+os.environ["NEO4J_URI"] = "neo4j://127.0.0.1:7687"
 os.environ["NEO4J_USERNAME"] = "neo4j"
 os.environ["NEO4J_PASSWORD"] = "legal_tech"
 
 graph = Neo4jGraph()
+
 
 from source.config.config import get_model
 

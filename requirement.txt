@@ -11,3 +11,12 @@ pytesseract
 pdfminer
 numpy==1.26.3
 neo4j
+fastapi
+langgraph
+llama-cpp-python
+genaipy
+tiktoken
+langchain_neo4j
+openai
+fpdf2
+

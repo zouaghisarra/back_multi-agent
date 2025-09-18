@@ -13,7 +13,7 @@ class EnvConfig(BaseModel):
     def load(cls) -> "EnvConfig":
         """Load configuration with environment variable override."""
         return cls(
-            model_path=os.getenv("MODEL_PATH", "C:/Users/HP/llama.cpp/models/Saul-7B-Instruct-v1.Q4_K_M.gguf")
+            model_path=os.getenv("MODEL_PATH", "C:/Users/marie/Downloads/doctors/test sarra PFE/back_multi-agent/source/config/model/saul-7b-instruct-v1-q4_k_m.gguf")
             #model_path=os.getenv("MODEL_PATH", "C:/Users/HP/legal-bert-small/model.safetensors")
         )
 

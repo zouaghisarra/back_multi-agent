@@ -12,7 +12,7 @@ from typing import List, Dict, TypedDict
 from langchain_core.messages import SystemMessage
 from langgraph.graph import StateGraph, START, END
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from genaipy.extractors.pdf import extract_pages_text
+# from genaipy.extractors.pdf import extract_pages_text
 # from genaipy.openai_apis.chat import get_chat_response
 # from genaipy.prompts.build_prompt import build_prompt
 import asyncio ,time
